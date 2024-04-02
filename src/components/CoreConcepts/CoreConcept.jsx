@@ -1,3 +1,5 @@
+import "./CoreConcept.css";
+
 export default function CoreConcept({ title, descreption, img }) {
   return (
     <li>
