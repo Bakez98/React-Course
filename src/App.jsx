@@ -50,10 +50,23 @@ function App() {
             <TabButton
               onSelect={() => handleSelect("components")}
               label="Components"
+              isSelected={selectedTopic === "components"}
             />
-            <TabButton onSelect={() => handleSelect("jsx")} label="JSX" />
-            <TabButton onSelect={() => handleSelect("props")} label="Props" />
-            <TabButton onSelect={() => handleSelect("state")} label="States" />
+            <TabButton
+              isSelected={selectedTopic === "jsx"}
+              onSelect={() => handleSelect("jsx")}
+              label="JSX"
+            />
+            <TabButton
+              isSelected={selectedTopic === "props"}
+              onSelect={() => handleSelect("props")}
+              label="Props"
+            />
+            <TabButton
+              isSelected={selectedTopic === "state"}
+              onSelect={() => handleSelect("state")}
+              label="States"
+            />
           </menu>
           {/* {!selectedTopic && <p>Please Select a topic</p>} */}
           {/* {selectedTopic && (
