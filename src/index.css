@@ -19,8 +19,6 @@ html {
   min-height: 80rem;
 }
 
-
-
 main {
   width: 90%;
   max-width: 50rem;
@@ -82,7 +80,6 @@ main h2 {
   margin: 1rem 0;
   padding: 0;
   display: flex;
-  align-items: start;
   gap: 0.5rem;
   list-style: none;
 }
